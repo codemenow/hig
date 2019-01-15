@@ -187,6 +187,15 @@
     classnames "^2.2.5"
     prop-types "^15.6.1"
 
+"@hig/slider@^0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@hig/slider/-/slider-0.1.3.tgz#024967f0627cae129b50be57f85c3860fc84f4e8"
+  integrity sha512-QXHLG9al5V+hjsDytad3GPxrTWNIorSOuiwkAuLJXo/Q2+44ep3rdwEAjtxvFmFLnhtvV9t84l7GWIw/TzTiSQ==
+  dependencies:
+    "@hig/utils" "^0.2.1"
+    classnames "^2.2.5"
+    prop-types "^15.6.1"
+
 "@hig/styles@^0.2.3":
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/@hig/styles/-/styles-0.2.3.tgz#675631d008c1861921d6148ecf15b140c04cc5b4"
@@ -221,6 +230,11 @@
   dependencies:
     classnames "^2.2.5"
     prop-types "^15.6.1"
+
+"@hig/utils@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@hig/utils/-/utils-0.2.1.tgz#5a8403776a2a05d781d17cace92deb7ea4e80c4b"
+  integrity sha512-4wxoWJYjaRtGsyo+J0d8o8x8+7u12XFcoOfOtlCOzGxCoDIglZOno0mwDXGdnpnnRj7yofOOuQ0aKmwnCIf8VQ==
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
