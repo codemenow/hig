@@ -5,6 +5,10 @@ export default {
     type: LENGTH,
     value: "0"
   },
+  "slider.halo.color": {
+    type: COLOR,
+    value: { ref: "basics.colors.white" }
+  },
   "slider.thumb.backgroundColor": {
     type: COLOR,
     value: { ref: "colorScheme.baseColor" }
@@ -15,7 +19,8 @@ export default {
   },
   "slider.track.color": {
     type: COLOR,
-    value: { ref: "colorScheme.baseColor" }
+    value: { ref: "colorScheme.baseColor" },
+    transform: { alpha: 0.5 }
   },
   "slider.track.width": {
     type: LENGTH,
@@ -29,7 +34,8 @@ export default {
   // Focused
   "slider.focused.halo.color": {
     type: COLOR,
-    value: { ref: "colorScheme.accentColor" }
+    value: { ref: "colorScheme.accentColor" },
+    transform: { alpha: 0.25 }
   },
   "slider.focused.halo.width": {
     type: LENGTH,
@@ -43,7 +49,8 @@ export default {
   // Hover
   "slider.hover.halo.color": {
     type: COLOR,
-    value: { ref: "colorScheme.baseColor" }
+    value: { ref: "colorScheme.baseColor" },
+    transform: { alpha: 0.15 }
   },
   "slider.hover.halo.width": {
     type: LENGTH,
@@ -57,7 +64,8 @@ export default {
   // Pressed
   "slider.pressed.halo.color": {
     type: COLOR,
-    value: { ref: "colorScheme.accentColor" }
+    value: { ref: "colorScheme.accentColor" },
+    transform: { alpha: 0.25 }
   },
   "slider.pressed.halo.width": {
     type: LENGTH,
@@ -70,6 +78,7 @@ export default {
 
   // Disabled
   "slider.disabled.opacity": {
-    type: OPACITY
+    type: OPACITY,
+    value: "0.5"
   }
 };
